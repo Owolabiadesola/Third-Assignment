@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> My Form Assignment</title>
+</head>
+<body>
+    <!-- a travel information form-->
+  <form>
+    <!--an heading-->
+    <h1>Travel Information Form</h1>
+    <p> Please provide us with the contact information below and we will arrange to reserve your ticket </p><br>
+
+    <!--passenger details -->
+    <hr>
+       <h2>Passenger Details</h2>
+    <hr>
+    <label name="title"> <strong> Title</strong></label>
+    <select>
+       <option value="Mr">Mr</option>
+       <option value="Mrs">Mrs</option>
+       <option value="Miss">Miss</option>
+    </select><br><br>
+    <label name="first name"> <strong>Fisrt Name</strong><lLabel>
+    <input type="first name" name="firstname" placeholder="Full name"><br><br>
+    <label name="middle name"> <strong>Middle Name</strong><lLabel>
+    <input type="middle name" name="middlename" placeholder="Middle name"><br><br>
+    <label name="last name"> <strong>Last Name</strong></label>
+    <input type="last name" name="last name" placeholder="Last name"><br><br>
+    <label for="male"><strong>Male</strong> </label>
+    <input type="radio" name="sex" value="male"><br><br>
+    <label for="female"><strong> Female</strong> </label>
+    <input type="radio" name="sex" value="female"><br><br>
+    <label for="phone number"> <strong> Enter your phone number</strong></label>
+    <input type="tel" name="phone number" placeholder="-012-34-567-89"><br><br>
+    <label type="email"> <strong> Enter your email</strong></label>
+    <input text="email" name="email" placeholder="Email address"><br><br>
+    <label for="dob"> <strong> Date of Birth</strong></label>
+    <input type="date" name="dob" ><br><br>
+    <label name="address"> <strong>Address</strong><lLabel>
+    <input type="text" name="address" placeholder="Street address"><br><br>
+    
+    <!--travel details-->
+    <hr><h2>Travel Details</h2> <hr>
+    <label name="departure state"> <strong>Departure State</strong></label>
+    <select>
+       <option value=" abuja"> Abuja</option>
+       <option value="osun"> Osun</option>
+       <option value="lagos"> Lagos</option>
+       <option value="ogun"> Ogun</option>
+    </select><br><br>
+    <label for="dob"> <strong>Departure Date</strong></label>
+    <input type="date" name="dob" ><br><br>
+    <label for="time"> <strong> Departure Time</strong></label>
+    <input type="time" name="time" ><br><br>
+    <label name="destination state"> <strong> Destination State</strong></label>
+    <select>
+       <option value=" abuja"> Abuja</option>
+       <option value="osun"> Osun</option>
+       <option value="lagos"> Lagos</option>
+       <option value="ogun"> Ogun</option>
+    </select><br><br>
+    <label for="dob"> <strong> Return Date</strong></label>
+    <input type="date" name="dob" ><br><br>
+    <label for="time"> <strong> Return Time</strong></label>
+    <input type="time" name="time" ><br><br>
+
+    <!--a sub-heading-->
+    <strong>
+       <p> Please check the service that you need</p>
+    </strong><br>
+    <!--services needed-->
+    <label for="airline ticket">Airline Ticket</label>
+    <input type="radio" name="airline ticket" value="airline ticket"><br><br>
+    <label for="rental car">Rental Car</label>
+    <input type="radio" name="rental car" value="rental car"><br><br>
+    <label for="hotel accomodation">Hotel Accomodation</label>
+    <input type="radio" name="hotel accomodation" value="hotel accomodation"><br><br>
+    <label name="prefered hotel brand"> <strong>Prefered Hotel Brand</strong></label>
+    <input type="prefered hotel brand" name="prefered hotel brand"><br><br>
+    <label name="prefered airline"> <strong>Prefered Airline</strong></label>
+    <input type="prefered airline" name="prefered airline"><br><br>
+    <!--submit button-->
+    <input type="button" value="submit form">
+  </form>
+</body>
+</html>
